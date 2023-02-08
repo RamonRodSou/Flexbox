@@ -1,0 +1,51 @@
+.cabecalhoPrincipal .container {
+
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav {
+
+    display: flex;
+}
+
+
+
+
+.rodapePrincipal-patrocinadores .container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+
+    width: 70%;
+    margin: 0 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rodapePrincipal-contatoForm {
+
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+
+    display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+
+    height:250px;
+
+    display: flex;
+/*  flex-direction: column;
+    flex-wrap: wrap;  quebra de coluna quando ultrapassar ficando tudo um do lado do outro */
+    flex-flow: column wrap; /*substitui os de cima*/
+}
