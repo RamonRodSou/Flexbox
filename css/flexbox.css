@@ -11,8 +11,6 @@
 }
 
 
-
-
 .rodapePrincipal-patrocinadores .container {
     
     display: flex;
@@ -49,3 +47,26 @@
     flex-wrap: wrap;  quebra de coluna quando ultrapassar ficando tudo um do lado do outro */
     flex-flow: column wrap; /*substitui os de cima*/
 }
+
+.conteudoPrincipal-cursos {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link {
+
+    width: 23%;
+    margin: 1%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n) {
+
+    margin-left: 0;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+
+    margin-right: 0;
+}
+
